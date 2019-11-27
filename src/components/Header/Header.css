@@ -30,6 +30,7 @@ header .inner-header {
 .inner-header .header-logo {
     height: 80px;
     cursor: pointer;
+    order: 3;
 }
 
 nav > ul {
@@ -74,13 +75,18 @@ nav > ul li a.active {
         align-items: center;
     }
 
-    .inner-header .header-logo {
+    .inner-header .header-heading {
         display: none
     }
 
-    .inner-header .header-heading {
+    .inner-header .header-logo {
         height: 30px;
         margin-top: 5px;
+        order: 1;
+    }
+
+    nav {
+        order: 2;
     }
 
     nav ul {

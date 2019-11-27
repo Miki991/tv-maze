@@ -26,7 +26,7 @@ class Shows extends Component {
     }
       
     getResults = () => {
-        window.scrollTo({top: 800, behavior:'smooth'});
+        window.scrollTo({top: 500, behavior:'smooth'});
 
         fetch(`https://api.tvmaze.com/search/shows?q=${this.state.tvShow}`)
         .then(response => response.json())
@@ -53,7 +53,7 @@ class Shows extends Component {
         fetch(`https://api.tvmaze.com/shows/${e.target.closest('.result').dataset.showid}/cast`)
         .then(response => response.json())
         .then(data => {
-            window.scrollTo({top: 800, behavior: 'smooth'});
+            window.scrollTo({top: 500, behavior: 'smooth'});
             
             this.setState ({
                 castClicked: true,
@@ -71,7 +71,7 @@ class Shows extends Component {
     }
 
     getBack = (e) => {
-        window.scrollTo({top: 800, behavior: 'smooth'});
+        window.scrollTo({top: 500, behavior: 'smooth'});
 
         this.setState({
             castClicked: false,

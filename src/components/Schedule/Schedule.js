@@ -13,7 +13,7 @@ class Schedule extends Component {
         requestSent: false,
     }
 
-    getResults = (e) => {
+    getResults = () => {
         fetch(`https://api.tvmaze.com/schedule?country=${this.state.country}&date=${this.state.date}`)
         .then(response => response.json())
         .then(data => {
@@ -22,11 +22,13 @@ class Schedule extends Component {
                 requestSent: true,
             })
 
-            window.scrollTo({top: 800, behavior: 'smooth'});
+            window.scrollTo({top: 500, behavior: 'smooth'});
         })
         .catch(error => {
-            return this.setState({
-                data: [],
+            console.log(error);
+
+            this.setState({
+                data: []
             })
         })
     }

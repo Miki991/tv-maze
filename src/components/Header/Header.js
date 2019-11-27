@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
 
-import {NavLink} from 'react-router-dom';
+import {NavLink, Link} from 'react-router-dom';
 
 
 const Header = (props) => {
-    const visitSite = (e) => {
+    const visitSite = () => {
         window.open('https://www.tvmaze.com/', '_blank');
     }
 
@@ -22,16 +22,17 @@ const Header = (props) => {
     }
 
     const scrollDown = () => {
-        window.scroll({top: 800, behavior: 'smooth'});
+        window.scroll({top: 500, behavior: 'smooth'});
     }
 
     return (
         <header>
             <div className='inner-header'>
-                <img src='./images/tvm-logo.png' 
-                     alt='heading' 
-                     className='header-heading' 
-                     onClick={visitSite} />
+                <Link to='/' exact='true'>
+                    <img src='./images/tvm-logo.png' 
+                        alt='heading' 
+                        className='header-heading' />
+                </Link>
                 <nav>
                     <ul>
                         {renderNav().map(link => (
