@@ -1,0 +1,73 @@
+footer {
+    width: 100%;
+    height: 70px;
+    margin: 80px auto 0;
+    color: #6c7a89;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer .react-js {
+    margin: 0 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer .react-img {
+    height: 30px;
+    vertical-align: -40%;
+    -webkit-animation: react-spin 2s linear 0s infinite;
+    animation: react-spin 2s linear 0s infinite;
+}
+
+@-webkit-keyframes react-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes react-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+footer .heart-img {
+    height: 25px;
+    vertical-align: -40%;
+    margin: 5px 5px;
+    -webkit-animation: heart-beat 1s linear 0s infinite;
+    animation: heart-beat 1s linear 0s infinite;
+}
+
+@-webkit-keyframes heart-beat {
+    20% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+}
+
+@keyframes heart-beat {
+    20% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+}

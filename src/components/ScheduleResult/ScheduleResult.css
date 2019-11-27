@@ -1,0 +1,45 @@
+.schedule-result {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0;
+    max-width: 900px;
+    width: 100%;
+}
+
+.schedule-result:nth-child(odd) {
+    background: #f6f6f5;
+}
+
+.schedule-result:nth-child(even) {
+    background: #fbfbfb;
+}
+
+.schedule-result .result-info {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+p.official-site {
+    cursor: pointer;
+    color: #16a085;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+    .schedule-result {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .schedule-result .result-info {
+        margin-left: 0;
+        max-width: 300px;
+        overflow: hidden;
+    }
+}

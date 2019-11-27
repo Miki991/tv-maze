@@ -1,0 +1,12 @@
+section.episodes {
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button.episodes-back-btn {
+    display: block;
+    margin: auto;
+}
