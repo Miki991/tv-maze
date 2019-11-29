@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tv-maze/static/css/main.8500e93d.chunk.css",
-    "main.js": "/tv-maze/static/js/main.dbbafba6.chunk.js",
-    "main.js.map": "/tv-maze/static/js/main.dbbafba6.chunk.js.map",
+    "main.css": "/tv-maze/static/css/main.cab6208f.chunk.css",
+    "main.js": "/tv-maze/static/js/main.1c41a579.chunk.js",
+    "main.js.map": "/tv-maze/static/js/main.1c41a579.chunk.js.map",
     "runtime-main.js": "/tv-maze/static/js/runtime-main.78574454.js",
     "runtime-main.js.map": "/tv-maze/static/js/runtime-main.78574454.js.map",
     "static/css/2.a881067f.chunk.css": "/tv-maze/static/css/2.a881067f.chunk.css",
-    "static/js/2.c03e5e03.chunk.js": "/tv-maze/static/js/2.c03e5e03.chunk.js",
-    "static/js/2.c03e5e03.chunk.js.map": "/tv-maze/static/js/2.c03e5e03.chunk.js.map",
+    "static/js/2.f9b4cc87.chunk.js": "/tv-maze/static/js/2.f9b4cc87.chunk.js",
+    "static/js/2.f9b4cc87.chunk.js.map": "/tv-maze/static/js/2.f9b4cc87.chunk.js.map",
     "index.html": "/tv-maze/index.html",
-    "precache-manifest.bed4f63fe7134cc0979c6fc6c031e673.js": "/tv-maze/precache-manifest.bed4f63fe7134cc0979c6fc6c031e673.js",
+    "precache-manifest.aed7f3ecfc7ed1ffcdba995f7676a245.js": "/tv-maze/precache-manifest.aed7f3ecfc7ed1ffcdba995f7676a245.js",
     "service-worker.js": "/tv-maze/service-worker.js",
     "static/css/2.a881067f.chunk.css.map": "/tv-maze/static/css/2.a881067f.chunk.css.map",
-    "static/css/main.8500e93d.chunk.css.map": "/tv-maze/static/css/main.8500e93d.chunk.css.map"
+    "static/css/main.cab6208f.chunk.css.map": "/tv-maze/static/css/main.cab6208f.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.78574454.js",
     "static/css/2.a881067f.chunk.css",
-    "static/js/2.c03e5e03.chunk.js",
-    "static/css/main.8500e93d.chunk.css",
-    "static/js/main.dbbafba6.chunk.js"
+    "static/js/2.f9b4cc87.chunk.js",
+    "static/css/main.cab6208f.chunk.css",
+    "static/js/main.1c41a579.chunk.js"
   ]
 }
