@@ -54,7 +54,7 @@ class CastActor extends Component {
                 </div>
                 :
                 <div className='actor'>
-                    <div className='actor-info'>
+                    <div className='actor-info-roles'>
                         <ul>
                         {this.state.roles.map((role, i) => {
                             return (

@@ -2,6 +2,8 @@ import React from 'react';
 import './Episode.css';
 
 const Episode = (props) => {
+    let summary = props.data.summary;
+
     return (
         <div className='episode'>
             <img src={props.data.image ? props.data.image.medium : '../../images/no-img.png'} alt='poster' />
@@ -14,7 +16,7 @@ const Episode = (props) => {
                 </p>
                 {props.data.summary ?
                 <p>
-                    <b>Summary</b>: {props.data.summary}
+                    <b>Summary</b>: <span dangerouslySetInnerHTML={{ __html: summary }} /> 
                 </p> : null}
             </div>
         </div>

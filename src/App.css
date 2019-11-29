@@ -28,6 +28,7 @@ main {
   max-width: 1000px;
   width: 100%;
   margin: auto;
+  padding: 10px;
 }
 
 .arrow-up {
@@ -46,4 +47,22 @@ main {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+button.search-btn {
+  margin: 40px 0;
+  min-width: 150px;
+  height: 40px;
+  background: #16a085;
+  color: white;
+  font-weight: bold;
+  border: 1px solid transparent;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #2abb9b;
 }
