@@ -3,6 +3,7 @@
     display: -ms-flexbox;
     display: flex;
     margin: 10px 0;
+    padding: 10px;
     max-width: 900px;
     width: 100%;
 }
@@ -36,6 +37,7 @@ p.official-site {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        max-width: 300px;
     }
     .schedule-result .result-info {
         margin-left: 0;

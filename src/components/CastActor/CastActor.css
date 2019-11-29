@@ -73,7 +73,12 @@ button.actor-roles-btn {
 /* RESPONSIVE */
 @media (max-width: 600px) {
     .actor {
+        max-width: 300px;
+        min-height: 585px;
         padding: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: auto;
     }
