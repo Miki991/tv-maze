@@ -3,9 +3,9 @@ import './Shows.css';
 
 import {connect} from 'react-redux';
 
-import {SearchShows} from '../SearchShows/SearchShows';
-import {ShowResult} from '../ShowResult/ShowResult';
-import {CastActor} from '../CastActor/CastActor';
+import {SearchShows} from '../../components/SearchShows/SearchShows';
+import {ShowResult} from '../../components/ShowResult/ShowResult';
+import {CastActor} from '../../components/CastActor/CastActor';
 
 
 

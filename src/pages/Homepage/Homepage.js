@@ -2,7 +2,7 @@ import React from 'react';
 import './Homepage.css';
 
 import Result from './Result';
-import Loader from '../Loader/Loader';
+import Loader from '../../components/Loader/Loader';
 
 import {connect} from 'react-redux';
 

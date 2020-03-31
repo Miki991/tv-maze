@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './Schedule.css';
 
-import {SearchSchedule} from '../SearchSchedule/SearchSchedule';
-import {ScheduleResult} from '../ScheduleResult/ScheduleResult';
+import {SearchSchedule} from '../../components/SearchSchedule/SearchSchedule';
+import {ScheduleResult} from '../../components/ScheduleResult/ScheduleResult';
 
 
 class Schedule extends Component {
