@@ -4,11 +4,11 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import {Header} from './components/Header/Header';
 import {HeaderSlider} from './components/HeaderSlider/HeaderSlider';
-import {Schedule} from './components/Schedule/Schedule';
-import Homepage from './components/Homepage/Homepage';
-import Shows from './components/Shows/Shows';
-import Summary from './components/Summary/Summary';
-import Episodes from './components/Episodes/Episodes';
+import {Schedule} from './pages/Schedule/Schedule';
+import Homepage from './pages/Homepage/Homepage';
+import Shows from './pages/Shows/Shows';
+import Summary from './pages/Summary/Summary';
+import Episodes from './pages/Episodes/Episodes';
 import {Footer} from './components/Footer/Footer';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
           <Header links={this.state.links} />
           <HeaderSlider />
           <main>

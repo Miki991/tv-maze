@@ -41,7 +41,7 @@ const Header = (props) => {
                             </li>))}
                     </ul>
                 </nav>
-                <img src='./images/nice-day.png' 
+                <img src='/images/nice-day.png' 
                      alt='logo' 
                      className='header-logo' 
                      onClick={visitSite} />

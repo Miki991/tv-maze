@@ -4,8 +4,8 @@ import './Episodes.css';
 import {withRouter} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
-import {Episode} from '../Episode/Episode';
-import Pagination from '../Pagination/Pagination';
+import {Episode} from '../../components/Episode/Episode';
+import Pagination from '../../components/Pagination/Pagination';
 
 
 class Episodes extends React.Component {
